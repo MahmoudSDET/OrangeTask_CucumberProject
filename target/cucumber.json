@@ -1,0 +1,241 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6250518600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Validate the solutions menu",
+        "description": "",
+        "id": "solution-menu;validate-the-solutions-menu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2008226500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to Google",
+            "match": {
+              "location": "SolutionsMenuSteps.user_navigates_to_Google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2565153300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user search for \"Orange Business Services\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Orange Business Services",
+                  "offset": 17
+                }
+              ],
+              "location": "SolutionsMenuSteps.user_search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8843817300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on FirstLink",
+            "match": {
+              "location": "SolutionsMenuSteps.user_clicks_on_FirstLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47638100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "go to Orange website link has below \"https://www.orange-business.com/en\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.orange-business.com/en",
+                  "offset": 37
+                }
+              ],
+              "location": "SolutionsMenuSteps.go_to_Orange_website_link_has_below(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 578441600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user can click on solution menu",
+            "match": {
+              "location": "SolutionsMenuSteps.user_can_click_on_solution_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3268772700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select All Products",
+            "match": {
+              "location": "SolutionsMenuSteps.user_select_All_Products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 821000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate the solutions dropdown list contains the following values",
+            "match": {
+              "location": "SolutionsMenuSteps.validate_the_solutions_dropdown_list_contains_the_following_values(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Business innovation"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Cloud"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Collaborative workspace"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Customer experience"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Cyberdefense"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Data intelligence"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Internet of Things"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Mobile connectivity"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Network transformation"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Services"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3490582200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user select Cloud and click apply",
+            "match": {
+              "location": "SolutionsMenuSteps.user_select_Cloud_and_click_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4246411400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user choose item with the following title",
+            "match": {
+              "location": "SolutionsMenuSteps.user_choose_item_with_the_following_title(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Managed Applications: improve operational capability in the cloud"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50486900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate that the system opens the right article",
+            "match": {
+              "location": "SolutionsMenuSteps.validate_that_the_system_opens_the_right_article()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Solution Menu",
+    "description": "",
+    "id": "solution-menu",
+    "keyword": "Feature",
+    "uri": "SolutionServices.feature"
+  }
+]
